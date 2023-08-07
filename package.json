@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "npm run dev"
+    "start": "run dev",
+    "install": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
