@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Circle } from "@react-three/drei";
 
 const ProjectCard = ({
   index,
@@ -24,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[270px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -47,12 +48,12 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-5 text-center'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='mt-4 flex flex-wrap gap-2 justify-center'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -82,13 +83,13 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
+          links to code repositories. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-5 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
@@ -97,4 +98,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

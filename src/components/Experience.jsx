@@ -30,9 +30,12 @@ const ExperienceCard = ({ experience }) => {
             className='w-[60%] h-[60%] object-contain'
           />
         </div>
-      }
+      } 
     >
-      <div>
+      <div 
+        className="cursor-pointer"
+        onClick={() => window.open(experience.source_code_link, "_blank")}
+      >
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
@@ -61,10 +64,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          What all I have gained
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+        Certifications.
         </h2>
       </motion.div>
 

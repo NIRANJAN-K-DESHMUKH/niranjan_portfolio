@@ -20,15 +20,31 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import arduino from "./tech/arduino.png";
+import tableau from "./tech/tableau.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import aws from "./company/aws.png";
+import udemy from "./company/udemy.png";
+import coursera from "./company/coursera.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import dataAnalytics from "./dataAnalytics.png";
+import volunteer from "./volunteer.png";
+import responsibility from "./responsibility.png";
+import archery from "./archery.png";
+import captain from "./captain.png";
+import inter from "./inter.png";
+import element from "./element.png";
+
 
 export {
   logo,
@@ -59,4 +75,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  aws,
+  udemy,
+  coursera,
+  java,
+  cpp,
+  tableau,
+  arduino, 
+  python,
+  dataAnalytics,
+  volunteer, responsibility, captain, archery, inter, element
+
 };

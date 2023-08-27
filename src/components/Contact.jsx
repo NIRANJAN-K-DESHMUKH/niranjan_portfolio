@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -64,6 +65,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -72,7 +74,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact me.</h3>
 
         <form
           ref={formRef}
@@ -97,7 +99,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email id?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -108,7 +110,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -129,6 +131,35 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+  
+      <motion.div 
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className='mt-20'
+       >
+        <div className="flex justify-center bg-black-100 rounded-2xl flex-wrap">
+          <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3'>
+            <Link target="_blank" to="https://www.linkedin.com/in/niranjan-deshmukh">
+              LinkedIn
+              </Link>
+          </div>
+          <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3'>
+            <Link target="_blank" to="https://github.com/NIRANJAN-K-DESHMUKH">
+              Github</Link>
+          </div>
+          <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3'>
+            <Link onClick={() => window.location = 'mailto:niranjandeshmukh371@gmail.com'}>
+              Email</Link>
+          </div>
+        </div>
+
+        <div 
+          className="mt-20 flex justify-center rounded-2xl"
+        >
+          <pre>Lots of ❤️ from Niranjan :)</pre>
+        </div>
+        
+      </motion.div>
+    </>
   );
 };
 
