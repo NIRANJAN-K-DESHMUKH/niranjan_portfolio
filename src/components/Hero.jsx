@@ -41,7 +41,7 @@ const Hero = () => {
               Scroll
             </motion.div>
           </div>
-          </a>
+        </a>
       </div>
 
     </section>

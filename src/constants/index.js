@@ -41,7 +41,7 @@ import {
       title: "About",
     },
     {
-      id: "feedbacks",
+      id: "education",
       title: "Education",
     },
     {
