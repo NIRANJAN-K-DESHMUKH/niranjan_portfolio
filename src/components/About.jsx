@@ -51,7 +51,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am Final Year CSE Undergraduate at Vellore Institue of Technology.
+        I am a Final Year CSE Undergraduate at Vellore Institue of Technology.
         A tech enthusiast, a problem solver, and a creative soul, all wrapped into one. Time management, adaptability, perfection and discipline are ingrained in my work ethic.
         <br/>When I'm not immersed in the realm of 1s and 0s, you'll find me with a sketchbook in hand, pouring my creativity onto paper. Drawing isn't just a hobby, it's an avenue for expression and relaxation.
         <br/><br/>Welcome to my digital abode, where my story comes alive through my code and creativity.
