@@ -21,8 +21,8 @@ const Hero = () => {
       <ComputersCanvas />
       
       <div 
-      className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'
-      title="You can rotate the 3D Computer :)"
+        className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'
+        title="You can rotate the 3D Computer :)"
       >
           <div className='w-[64px] h-[35px] rounded-3xl border-4 border-secondary flex justify-left items-start p-2'>
             <motion.div
