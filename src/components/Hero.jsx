@@ -2,6 +2,7 @@ import React from 'react';
 import {styles} from "../styles";
 import {motion} from "framer-motion";
 import {ComputersCanvas} from "./canvas";
+import {Computer2Canvas} from "./canvas";
 
 
 const Hero = () => {
