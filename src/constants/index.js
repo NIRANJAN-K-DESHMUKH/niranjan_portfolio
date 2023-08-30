@@ -116,14 +116,14 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     {
       name: "java",
       icon: java,
@@ -136,10 +136,10 @@ import {
       name: "cpp",
       icon: cpp,
     },
-    {
-      name: "arduino",
-      icon: arduino,
-    },
+    // {
+    //   name: "arduino",
+    //   icon: arduino,
+    // },
     {
       name: "tableau",
       icon: tableau,
