@@ -93,10 +93,6 @@ import {
   
   const technologies = [
     {
-      name: "tableau",
-      icon: tableau,
-    },
-    {
       name: "HTML 5",
       icon: html,
     },
@@ -144,8 +140,10 @@ import {
       name: "arduino",
       icon: arduino,
     },
-    
-  
+    {
+      name: "tableau",
+      icon: tableau,
+    }
   ];
   
   const experiences = [
