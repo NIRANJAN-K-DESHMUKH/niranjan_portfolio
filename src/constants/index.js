@@ -92,14 +92,14 @@ import {
   ];
   
   const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
     {
       name: "JavaScript",
       icon: javascript,
@@ -108,22 +108,22 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
     {
       name: "MongoDB",
       icon: mongodb,
     },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
     {
       name: "java",
       icon: java,
@@ -136,14 +136,14 @@ import {
       name: "cpp",
       icon: cpp,
     },
-    // {
-    //   name: "arduino",
-    //   icon: arduino,
-    // },
-    // {
-    //   name: "tableau",
-    //   icon: tableau,
-    // }
+    {
+      name: "arduino",
+      icon: arduino,
+    },
+    {
+      name: "tableau",
+      icon: tableau,
+    }
   ];
   
   const experiences = [
