@@ -108,10 +108,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
