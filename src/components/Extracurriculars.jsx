@@ -21,6 +21,7 @@ const ServiceCard = ({ index, title, icon, desc, source_code_link}) => (
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[300px] min-w-[299px] flex justify-evenly items-center flex-col cursor-pointer'
         onClick={() => window.open(source_code_link, "_blank")}
+        title="Click here to view the certificate"
       >
         <img
           src={icon}

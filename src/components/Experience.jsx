@@ -35,6 +35,7 @@ const ExperienceCard = ({ experience }) => {
       <div 
         className="cursor-pointer"
         onClick={() => window.open(experience.source_code_link, "_blank")}
+        title="Click here to view the certificate"
       >
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p
@@ -43,7 +44,6 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
-      </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
@@ -55,6 +55,7 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      </div>
     </VerticalTimelineElement>
   );
 };

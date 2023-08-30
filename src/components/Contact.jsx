@@ -118,6 +118,7 @@ const Contact = () => {
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            title="Click here to Send"
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -137,17 +138,17 @@ const Contact = () => {
         className='mt-20'
        >
         <div className="flex justify-center bg-black-100 rounded-2xl flex-wrap">
-          <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3'>
+          <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3' title="Click here to view my LinkedIn Profile">
             <Link target="_blank" to="https://www.linkedin.com/in/niranjan-deshmukh">
               LinkedIn
               </Link>
           </div>
-          <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3'>
+          <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3' title="Click here to view my Github Profile">
             <Link target="_blank" to="https://github.com/NIRANJAN-K-DESHMUKH">
               Github</Link>
           </div>
           <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3'>
-            <Link onClick={() => window.location = 'mailto:niranjandeshmukh371@gmail.com'}>
+            <Link onClick={() => window.location = 'mailto:niranjandeshmukh371@gmail.com'} title="Click here to mail me">
               Email</Link>
           </div>
         </div>

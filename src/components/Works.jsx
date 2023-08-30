@@ -18,7 +18,9 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    title="Click on github icon to view the repository"
+    >
       <Tilt
         options={{
           max: 45,

@@ -45,12 +45,12 @@ import {
       title: "Education",
     },
     {
-      id: "projects",
-      title: "Projects",
-    },
-    {
       id: "work",
       title: "Certifications",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
