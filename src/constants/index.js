@@ -140,10 +140,10 @@ import {
     //   name: "arduino",
     //   icon: arduino,
     // },
-    {
-      name: "tableau",
-      icon: tableau,
-    }
+    // {
+    //   name: "tableau",
+    //   icon: tableau,
+    // }
   ];
   
   const experiences = [
