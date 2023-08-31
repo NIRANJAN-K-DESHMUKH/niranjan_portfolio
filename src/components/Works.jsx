@@ -21,7 +21,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div 
-    variants={fadeIn("", "", index * 0.5, 0.75)}
+    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     title="Click on github icon to view the repository"
     >
       <Tilt
