@@ -32,6 +32,7 @@ import {
     arduino,
     tableau,
     dataAnalytics,
+    jokerMonkey,
     volunteer, responsibility, captain, archery, inter, element
   } from "../assets";
   
@@ -292,7 +293,6 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/NIRANJAN-K-DESHMUKH/Facelock-App",
     },
-    ,
     {
       name: "Externship",
       description:
@@ -317,6 +317,27 @@ import {
       ],
       image: dataAnalytics,
       source_code_link: "https://github.com/NIRANJAN-K-DESHMUKH/Amazon-Cell-Phone-Reviews",
+    },
+    {
+      name: "Joker Monkey",
+      description:
+        "Deployed on Mozilla Firefox. Joker Monkey is a fun and playful browser extension that adds a touch of humor to your browsing experience. With this extension, you can expect to see a randomly generated joke or pun every time.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: jokerMonkey,
+      source_code_link: "https://github.com/NIRANJAN-K-DESHMUKH/Joker-Monkey",
     }
   ];
   

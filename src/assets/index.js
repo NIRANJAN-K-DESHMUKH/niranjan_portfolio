@@ -38,6 +38,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import dataAnalytics from "./dataAnalytics.png";
+import jokerMonkey from "./jokerMonkey.png";
 import volunteer from "./volunteer.png";
 import responsibility from "./responsibility.png";
 import archery from "./archery.png";
@@ -84,6 +85,7 @@ export {
   arduino, 
   python,
   dataAnalytics,
+  jokerMonkey,
   volunteer, responsibility, captain, archery, inter, element
 
 };
