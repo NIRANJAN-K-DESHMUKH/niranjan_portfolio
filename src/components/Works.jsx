@@ -7,6 +7,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { slideIn } from "../utils/motion";
+
 import { Circle } from "@react-three/drei";
 
 const ProjectCard = ({
@@ -18,7 +20,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    <motion.div variants={slideIn("left", "tween", 0.2, 1)}
     title="Click on github icon to view the repository"
     >
       <Tilt
