@@ -126,6 +126,10 @@
   transform: translateZ(0);
 }
 
+.profiles :hover {
+ background-color: #2b244d;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

@@ -73,12 +73,12 @@ import {
     {
       title: "Tools",
       icon: backend,
-      desc: "GIT, MySQL, MongoDB, Tableau, IBM Cognos"
+      desc: "GIT, MySQL, MongoDB, Postman, Tableau, IBM Cognos"
     },
     {
       title: "Other Technologies",
       icon: backend,
-      desc: "IoT, AWS, Blockchain, REST, Arduino, Matlab"
+      desc: "IoT, AWS, REST, Arduino, Matlab"
     },
     {
       title: "Spoken Languages",
@@ -88,7 +88,7 @@ import {
     {
       title: "Soft Skills",
       icon: web,
-      desc: "Problem Solving, Perfectionist, Leadership, Adaptability, Discipline"
+      desc: "Problem Solving, Collaborative, Punctual, Leadership, Adaptability, Discipline"
     }
   ];
   
@@ -197,7 +197,7 @@ import {
       name: "Vellore Institute of Technology, Vellore, Tamil Nadu, India",
       designation: "CGPA:",
       company: "9.01",
-      image: "July 2024 (expected)",
+      image: "July 2024 (expected completion)",
     },
     {
       testimonial:

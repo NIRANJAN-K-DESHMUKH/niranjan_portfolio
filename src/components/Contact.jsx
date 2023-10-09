@@ -137,7 +137,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='mt-20'
        >
-        <div className="flex justify-center bg-black-100 rounded-2xl flex-wrap">
+        <div className="flex justify-center bg-black-100 rounded-2xl flex-wrap profiles">
           <div className='m-5 cursor-pointer bg-primary rounded-2xl p-3' title="Click here to view my LinkedIn Profile">
             <Link target="_blank" to="https://www.linkedin.com/in/niranjan-deshmukh">
               LinkedIn
