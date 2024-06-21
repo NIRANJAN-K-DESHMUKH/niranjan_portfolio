@@ -33,7 +33,6 @@ import {
     tableau,
     dataAnalytics,
     jokerMonkey,
-    hostelhub,
     volunteer, responsibility, captain, archery, inter, element
   } from "../assets";
   
