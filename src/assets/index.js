@@ -38,6 +38,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import dataAnalytics from "./dataAnalytics.png";
+import hostelhub from "./hostelhub.png";
+
 import jokerMonkey from "./jokerMonkey.png";
 import volunteer from "./volunteer.png";
 import responsibility from "./responsibility.png";
@@ -86,6 +88,7 @@ export {
   python,
   dataAnalytics,
   jokerMonkey,
+  hostelhub,
   volunteer, responsibility, captain, archery, inter, element
 
 };
