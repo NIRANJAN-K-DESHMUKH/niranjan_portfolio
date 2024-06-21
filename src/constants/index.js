@@ -246,7 +246,7 @@ import {
         }
       ],
       image: hostelhub,
-      source_code_link: "https://github.com/NIRANJAN-K-DESHMUKH/niranjan_portfolio",
+      source_code_link: "https://github.com/NIRANJAN-K-DESHMUKH/hostel_hub",
     },
     {
       name: "Expense Management System",
