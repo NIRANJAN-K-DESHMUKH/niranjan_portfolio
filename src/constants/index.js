@@ -63,7 +63,7 @@ import {
     {
       title: "Programming Languages",
       icon: web,
-      desc: "Java, C++, C, JavaScript, Python, SQL"
+      desc: "Java, C++, C, HTML, CSS, JavaScript, Python, SQL"
     },
     {
       title: "Frameworks",
@@ -73,22 +73,22 @@ import {
     {
       title: "Tools",
       icon: backend,
-      desc: "GIT, MySQL, MongoDB, Postman, Tableau, IBM Cognos"
+      desc: "MySQL, MongoDB, VS Code, Github, Postman, Tableau, IBM Cognos"
     },
     {
       title: "Other Technologies",
       icon: backend,
-      desc: "IoT, AWS, REST, Arduino, Matlab"
+      desc: "IoT, AWS, REST API, Arduino, Matlab"
     },
     {
       title: "Spoken Languages",
       icon: creator,
-      desc: "English, Hindi, Marathi, Spanish (Español)"
+      desc: "English, Hindi, Marathi, Spanish (Español - Beginner)"
     },
     {
       title: "Soft Skills",
       icon: web,
-      desc: "Problem Solving, Collaborative, Punctual, Leadership, Adaptability, Discipline"
+      desc: "Problem Solving, Leadership, Teamwork, Creativity, Adaptability, Discipline"
     }
   ];
   
@@ -196,8 +196,8 @@ import {
         "B.Tech - Computer Science and Engineering (with spec. in IoT)",
       name: "Vellore Institute of Technology, Vellore, Tamil Nadu, India",
       designation: "CGPA:",
-      company: "9.01",
-      image: "July 2024 (expected completion)",
+      company: "9.08",
+      image: "July 2024",
     },
     {
       testimonial:
@@ -218,6 +218,35 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Hostel-Hub",
+      description:
+        "All-in-one digital web app designed to streamline hostel life, with a focus on room cleaning and online complaint services, enhanced with Web Speech API for speech recognition and Voice Control commands.",
+      tags: [
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ReactJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML & CSS",
+          color: "orange-text-gradient",
+        }
+      ],
+      image: hostelhub,
+      source_code_link: "https://github.com/NIRANJAN-K-DESHMUKH/niranjan_portfolio",
+    },
     {
       name: "Expense Management System",
       description:
@@ -321,7 +350,7 @@ import {
     {
       name: "Joker Monkey",
       description:
-        "Deployed on Mozilla Firefox. Joker Monkey is a fun and playful browser extension that adds a touch of humor to your browsing experience. With this extension, you can expect to see a randomly generated joke or pun every time.",
+        "A fun and playful Microsoft Edge browser extension, with nearly 105 users (and growing) worldwide, that adds a touch of humour to user browsing experience. User can see a randomly generated joke or pun on every click on the extension icon.",
       tags: [
         {
           name: "HTML",
